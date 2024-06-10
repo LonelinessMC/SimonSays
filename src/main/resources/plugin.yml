@@ -1,0 +1,10 @@
+main: it.loneliness.mc.Plugin
+name: SimonSays
+version: 0.1
+api-version: 1.20
+depend: [Locale-API]
+commands:
+  simonsays:
+    description: Base command for SimonSays plugin
+    usage: /<command> <subcommand>
+    aliases: [ss]
